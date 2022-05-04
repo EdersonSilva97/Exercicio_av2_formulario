@@ -1,0 +1,78 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to left, rgb(0, 86, 91), rgb(0, 147, 160));
+
+}
+.div-formulario{
+    color: #d3d3d3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(52, 52, 52);
+    padding: 15px;
+    border-radius: 15px;
+   /* width: 20%
+
+    */
+    width: auto;
+    height: auto;
+    max-width: 840px;
+    min-width: auto;
+    box-shadow: 10px 0px rgba(0, 30, 31, 0.7);
+}
+
+fieldset{
+    border: 3px dashed rgba(0, 147, 160, 0.34);
+
+}
+
+legend{
+    /*
+    border: 1px solid #ff9900;
+    */
+    padding: 10px;
+    text-align: left;
+    background-color: rgba(0, 246, 206, 0.35);
+    border-radius: 5px;
+    color: white;
+}
+
+select{
+    border-radius: 5px;
+}
+
+input{
+    font-size: 16px;
+    outline: none;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    border: none;
+    letter-spacing: 2px;
+    padding: 2px;
+}
+
+option{
+    outline: none;
+    border-radius: 16px;
+}
+
+#enviar{
+    width: 40%;
+    border: #396060 solid 3px;
+    background-color: rgba(52, 52, 52, 0);
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    transition: width 0.5s, height 0.5s;
+}
+
+#enviar:hover{
+    background-image: linear-gradient(to left, rgb(0, 86, 91), rgb(0, 147, 160));
+    width: 50%;
+    height: 50%;
+}
+
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="div-formulario">
+    <form id="formulario" name="formulario">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label>Nome &nbsp;: <input type="text" name="nome" id="nome" size="50" placeholder="fulano"></label><br><br>
+            <label>E-mail: <input type="text" id="email" size="50" placeholder="exemplo@exemplo.com"></label><br><br>
+            <label>Sexo: <input type="radio" name="sexo" id="sexoM" value="M" checked="checked"> Masculino</label>
+            <label><input type="radio" name="sexo" id="sexoF" value="F"> Feminino</label><br><br>
+            <label>Idade: <input type="text" id="idade" size="2" placeholder=""></label><br><br>
+        </fieldset> <br>
+
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+            Forma de Contratação:
+            <label><input type="radio" id="forma_registrado" name="forma" value="CLT" checked="checked"> Registrado </label>
+            <label><input type="radio" id="forma_contratado" name="forma" value="CLT"> Contratado </label><br><br>
+
+            Cargo:
+            <select name="cargo" id="cargo">
+                <option value="Analista Junior"> Analista Junior</option>
+                <option value="Analista Senior"> Analista Senior</option>
+                <option value="Programador"> Programador</option>
+            </select><br><br>
+            
+            <label>Setor: <input type="text" id="setor" name="setor" size="50" placeholder=""> </label><br><br>
+            <label>Data Registro: <input type="date" id="registro" name="registro"> </label><br>
+        </fieldset><br>
+
+        <div align="center">
+            <input id="enviar" type="submit" value="Enviar">
+        </div>
+
+    </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
